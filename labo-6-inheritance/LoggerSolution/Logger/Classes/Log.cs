@@ -6,7 +6,7 @@ namespace Logger.Classes
 {
 	internal abstract class Log
 	{
-        private  string _fileName;
+        private string _fileName;
         private SqlConnection _connection;
 
         public Log(string fileName)
@@ -37,7 +37,7 @@ namespace Logger.Classes
                 {
                     //_connection.Open();
 
-                    //Verder afwerken
+                    // Verder afwerken
                 }
             }
         }
